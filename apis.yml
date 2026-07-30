@@ -1,9 +1,25 @@
 aid: livsho-holdings-limited
 name: Livsho Holdings Limited
-description: Livsho Holdings Limited is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Livsho Holdings Limited operates LIVSHO, described as the GCC's first
+  live auction marketplace for collectibles, where users buy, sell, and connect around
+  the things they love through interactive live shopping experiences. The consumer-facing
+  platform is delivered primarily through a mobile app, with a Wix-hosted marketing
+  presence at livsho.tv and livsho.com and a Linktree for app downloads. Livsho is a
+  portfolio company of 500 Global. No public API, developer portal, or machine-readable
+  API documentation is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/livsho-holdings-limited/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://livsho.com/storage/assets/logo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Marketplace
+- Live Shopping
+- E-Commerce
+- Collectibles
+- Auctions
+- Consumer
+- GCC
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/livsho-holdings-limited-domain-security.yml
 - type: Website
   url: https://livsho.tv
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
