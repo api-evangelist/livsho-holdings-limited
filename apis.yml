@@ -1,5 +1,5 @@
 aid: livsho-holdings-limited
-name: Livsho Holdings Limited
+name: Livsho
 description: Livsho Holdings Limited operates LIVSHO, described as the GCC's first
   live auction marketplace for collectibles, where users buy, sell, and connect around
   the things they love through interactive live shopping experiences. The consumer-facing
@@ -65,3 +65,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Livsho Holdings Limited
